@@ -1,0 +1,164 @@
+/*
+##################################################
+                      Global
+##################################################
+*/
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  font-size: 2.2rem;
+}
+
+header,
+footer {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredericka the great", cursive;
+  font-size: 0.8em;
+}
+
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.4em;
+}
+
+/*
+##################################################
+                      Header
+##################################################
+*/
+header {
+  height: 100vh;
+  background: url(../img/background-img.jpg) center/cover no-repeat;
+  padding: 2rem 8rem;
+}
+
+header section h1 {
+  font-size: 1em;
+}
+
+header article {
+  width: 17%;
+  text-align: center;
+  padding: 17% 0 0 0;
+  margin: 0 auto;
+}
+
+header article h2 span {
+  text-transform: uppercase;
+}
+
+header article p {
+  margin: 1rem 0 0.5rem 0;
+}
+
+header article a,
+footer section a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+}
+
+header article a:hover,
+footer section a:hover {
+  background: white;
+  color: black;
+}
+
+header nav ul {
+  padding: 15rem 0 0 0;
+}
+
+header nav ul li,
+footer nav {
+  text-align: end;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 0 0 0.3rem 0;
+}
+
+header nav ul li a,
+main article a,
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover,
+main article a:hover,
+footer nav a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/*
+##################################################
+                      Main
+##################################################
+*/
+main section {
+  width: 32%;
+  text-align: center;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+main section h3 {
+  margin: 3rem 0;
+}
+
+main article {
+  width: 30%;
+  border: double black;
+  border-width: 0.4rem;
+  padding: 1rem;
+  margin: 3rem auto;
+}
+
+main article a {
+  color: black;
+}
+
+main article a:hover {
+  color: inherit;
+}
+
+/*
+##################################################
+                      Footer
+##################################################
+*/
+footer {
+  background: #333442;
+  padding: 1rem 1.5rem;
+  margin: 8rem 0 0 0;
+}
+
+footer p {
+  width: 37%;
+  margin: 1rem 0;
+}
+
+footer nav {
+  margin: 0.5rem 0 0 0;
+}
+
+footer nav a {
+  margin: 0 0 0 1rem;
+}

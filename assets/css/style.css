@@ -18,8 +18,14 @@ footer {
 }
 
 header,
-footer {
+footer,
+a {
   color: white;
+}
+
+main,
+article {
+  text-align: center;
 }
 
 h1,
@@ -33,6 +39,10 @@ p,
 a {
   font-family: "Open Sans", sans-serif;
   font-size: 0.4em;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*
@@ -52,13 +62,8 @@ header section h1 {
 
 header article {
   width: 17%;
-  text-align: center;
   padding: 17% 0 0 0;
   margin: 0 auto;
-}
-
-header article h2 span {
-  text-transform: uppercase;
 }
 
 header article p {
@@ -67,8 +72,6 @@ header article p {
 
 header article a,
 footer section a {
-  color: white;
-  text-decoration: none;
   border: 1px solid white;
   padding: 0.5rem 1.5rem;
 }
@@ -93,13 +96,6 @@ header nav ul li {
   margin: 0 0 0.3rem 0;
 }
 
-header nav ul li a,
-main article a,
-footer nav a {
-  color: white;
-  text-decoration: none;
-}
-
 header nav ul li a:hover,
 main article a:hover,
 footer nav a:hover {
@@ -114,7 +110,6 @@ footer nav a:hover {
 */
 main section {
   width: 32%;
-  text-align: center;
   padding: 0 2rem;
   margin: 0 auto;
 }
@@ -125,18 +120,14 @@ main section h3 {
 
 main article {
   width: 30%;
-  border: double black;
-  border-width: 0.4rem;
+  border: 5px double black;
   padding: 1rem;
   margin: 3rem auto;
 }
 
-main article a {
-  color: black;
-}
-
+main article a,
 main article a:hover {
-  color: inherit;
+  color: black;
 }
 
 /*
